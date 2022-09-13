@@ -1,5 +1,4 @@
-#include <main.h>
-#include "alx"
+#include "main.h"
 /**
  *main - prints alx
  *Return:Always 0 (success)
