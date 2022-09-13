@@ -1,14 +1,19 @@
 #include <stdio.h>
 /**
- * main - print alx
- * description a program that prints alx
+ * main - print _putchar
+ * description a program that prints _putchar
  * Return 0 (success)
  */
 int main(void)
 {
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
 _putchar('a');
-_putchar('l');
-_putchar('x');
+_putchar('r');
 _putchar('\n');
 return (0);
 }
