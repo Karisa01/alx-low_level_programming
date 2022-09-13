@@ -1,4 +1,4 @@
-#include "alx"
+#include <main.h>
 /**
  * main - print alx
  * description a program that prints alx
