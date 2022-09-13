@@ -1,13 +1,14 @@
+#include <main.h>
 #include "alx"
 /**
- * main-prints alx
- * Return:Always 0 (success)
+ *main - prints alx
+ *Return:Always 0 (success)
  */
 int main(void)
 {
-_putchat('a');
+_putchar('a');
 _putchar('l');
 _putchar('x');
-_putchar(''\n');
+_putchar('\n');
 return (0);
 }
