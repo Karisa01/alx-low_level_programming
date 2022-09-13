@@ -1,7 +1,8 @@
-#include "main.h"
+#include "alx"
 /**
- *main - prints alx
- *Return:Always 0 (success)
+ * main - print alx
+ * description a program that prints alx
+ * Return 0 (success)
  */
 int main(void)
 {
