@@ -4,7 +4,7 @@
  * description a program that prints _putchar
  * Return 0 (success)
  */
-int main(void)
+int main()
 {
 putchar('_');
 putchar('p');
