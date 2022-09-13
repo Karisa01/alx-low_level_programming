@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * main - print _putchar
- * description a program that prints _putchar
+ * main-entry point
  * Return 0 (success)
  */
-int main()
+int main(void)
 {
 putchar('_');
 putchar('p');
