@@ -10,7 +10,7 @@ int(x);
 {
 for (x = 0; x < 10; x++)
 { 
-for (n = 'a'; n <= 'z'; j++)
+for (n = 'a'; n <= 'z'; n++)
 _putchar(n);
 _putchar('\n');
 }
