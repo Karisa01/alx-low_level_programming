@@ -8,11 +8,9 @@ void print_alphabet_x10(void)
 int(n);
 int(x);
 {
-for ( x = 0 ; x < 10 ; x ++ )
-{
-for
-}
-( n = 'a' ; n <='z';j++)
+for (x = 0; x < 10; x++)
+{ 
+for (n = 'a'; n <= 'z'; j++)
 _putchar(n);
 _putchar('\n');
 }
