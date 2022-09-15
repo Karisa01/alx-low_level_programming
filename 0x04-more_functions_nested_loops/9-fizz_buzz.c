@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - entry point
@@ -9,7 +10,6 @@
 int main(void)
 {
 int i;
-int j;
 for (i = 1; i <= 100; i++)
 {
 if (i % 15 == 0)
