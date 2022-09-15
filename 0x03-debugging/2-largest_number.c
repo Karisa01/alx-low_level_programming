@@ -14,15 +14,15 @@ int largest;
 
 if (a >= b && a >= c)
 {
-print_largest = a;
+printf("%d"; a)
 }
 else if (b >= a && b >= c)
 {
-print_largest = b;
+printf("%d"; b)
 }
 else
 {
-print_largest = c;
+printf("%d"; c)
 }
 
 return (largest);
