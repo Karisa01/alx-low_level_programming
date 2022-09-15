@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * largest_number - prints largest number
@@ -9,7 +8,7 @@
  * Return: largest number
  */
 
-int largest_number(int a, int b, int c)
+int main(int a, int b, int c)
 {
 	int largest;
 
