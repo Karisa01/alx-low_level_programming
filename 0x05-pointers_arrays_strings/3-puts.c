@@ -1,14 +1,15 @@
-#include "main.h"
-#include <stdio.h>
+nclude "main.h"
 /**
-* _puts - function that prints a string, followed by a new line, to stdout	*
-* @str: pointer type char
-* Return: Always 0 (Success)
-*/
-void puts(char *str)
+ * _puts - function that prints a string, followed by a new line, to stdout
+ * @str: pointer type char
+ * Return: Always 0 (Success)
+ */
+void _puts(char *str)
 {
-for (; *str != '\0'; str++)
+for (; *str != '\0';)
 {
-putchar ('\n');
+_putchar(*str);
+str++;
 }
+_putchar('\n');
 }
