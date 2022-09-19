@@ -1,15 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-void swap_int(int *a, int *b);
+/**
+ * swap_int - a function that swaps the values of two integers
+ * @a: input 1
+ * @b: input 2
+ * Return: integers
+ */
+void swap_int(int *a, int *b)
 {
-int a, b;
-printf("Enter Value of a ");
-scanf("%d", &a);
-printf("\nEnter Value of b ");
-scanf("%d", &b);
-int temp = a;
-a = b;
-b = temp;
-printf("\nAfter Swapping: a = %d, b = %d", x, y);
-return 0;
+int n;
+n = *a;
+*a = *b;
+*b = n;
 }
