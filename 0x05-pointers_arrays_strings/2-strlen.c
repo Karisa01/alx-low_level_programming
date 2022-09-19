@@ -1,10 +1,17 @@
 #include <main.h>
-int _strlen(char *s);
+/**
+ * _strlen - a function that returns the length of a string
+ * @s: char input
+ * Return: length of the input string
+ */
+int _strlen(char *s)
 {
-char a[20] = "Program";
-char b[20] = {'P', 'r', 'o', 'g', 'r', 'a', 'm', '\0'};
-/*using the %zu format specifier to print size_t*/
-printf("Length of string a = %zu \n", strlen(a));
-printf("Length of string b = %zu \n", strlen(b));
-return (0);
+int i = 1, sum = 0;
+char pl = s[0];
+while (pl != '\0')
+{
+sum++;
+pl = s[i++];
+}
+return (sum);
 }
