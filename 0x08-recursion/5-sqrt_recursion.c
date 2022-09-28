@@ -3,7 +3,7 @@
 /**
  * sqrt2 - Makes possible to evaluate from 1 to n
  * @a: same number as n
- * @b: number that iterates from 1 to 
+ * @b: number that iterates from 1 to
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
