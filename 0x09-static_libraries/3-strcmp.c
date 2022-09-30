@@ -1,47 +1,24 @@
 #include "main.h"
+
 /**
-  * _strcmp - Compares two strings
-  * @s1: The first string
-  * @s2: The second string
-  * Return: int value
-  */
+* _strcmp - compare 2 chars
+* @s1: string
+* @s2: string to compare
+* Return: number of the diference bettweb s1 and s2
+*/
+
 int _strcmp(char *s1, char *s2)
 {
-	int a = 0, b = 0, c = 0, r = 0, lim;
 
-	while (s1[a])
-	{
-		a++;
-	}
-	while (s2[b])
-	{
-		b++;
-	}
-	if (a <= b)
-	{
-		lim = a;
-	}
-	else
-	{
-		lim = b;
 
-	}
-	while (c <= lim)
+	while (*s1 != '\0' && *s2 != '\0' && *s1 == *s2)
+
 	{
 
-		for (s1[c] == s2[c])
+		s1++;
 
-		{
-		c++;
-		continue;
-		}
-		else
-		{
-			r = s1[c] - s2[c];
-
-			break;
-		}
-		c++;
+		s2++;
 	}
-	return (r);
+
+	return (*s1 - *s2);
 }
