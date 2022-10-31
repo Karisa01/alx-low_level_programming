@@ -3,7 +3,7 @@
 #include <limits.h>
 /**
  * print_binary - print an unsigned int in binary
- * @n:
+ * @n: number to convert into binary representation
  * Return: void
  */
 void print_binary(unsigned long int n)
