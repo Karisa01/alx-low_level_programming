@@ -6,6 +6,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#define BUFSIZE 1024
+
 static ssize_t read_file(char *file, char **buf, int fd);
 static void write_copy(char *file, int fd, char *buf, int len);
 /**
