@@ -1,49 +1,25 @@
-#include <stdio.h>
+#include "lists.h"
 
-#include <stdlib.h>
-
-
-
-typedef struct dlistint_s
-
-{
-
-  int n;
-
-  struct dlistint_s *prev;
-
-  struct dlistint_s *next;
-
-} dlistint_t;
-
-
-
+/**
+ * print_dlistint - prints all the elements of a dlistint_t list
+ * @h: the head pointer to the list
+ * Return: number of nodes in the list
+ */
 size_t print_dlistint(const dlistint_t *h)
 
 {
 
-  size_t count = 0;
+	size_t count = 0;
 
-  const dlistint_t *current = h;
+	while (h)
 
+	{
+		printf("%d\n", h->n);
 
+		count++;
 
-  while (current)
+		h = h->next;
+	}
 
-  {
-
-    printf("%d\n", current->n);
-
-    current = current->next;
-
-    count++;
-
-  }
-
-
-
-  return count;
-
+	return (count);
 }
-
-
